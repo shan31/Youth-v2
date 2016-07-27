@@ -19,7 +19,7 @@ body { font-family: 'Open Sans', sans-serif; }
 .navbar .navbar-form ul { margin: 0px; }
 .navbar .navbar-form ul a { font-size: 16px; font-weight: 400; color: #aeb2c4; letter-spacing: 0.5px; padding: 0px 5px; line-height: 35px; font-family: 'Roboto', sans-serif; }
 .navbar .navbar-form ul a i { color: #737a99; font-size: 18px; top: 1px; right: 5px; position: relative; }
-.navbar .navbar-form ul a img { width: 30px; height: 30px; border-radius: 50%; float: right; display: table; position: relative; top: 5px; }
+.user_profile_img { width: 30px; height: 30px; border-radius: 50%; float: right; display: table; position: relative; top: 5px; }
 .sub_menu { position: fixed; width: 45%; background-color: #002550; top: 70px; display: none; z-index: 9; }
 .sub_menu_col { display: table; position: relative; float: left; width: 100%; padding: 10px; }
 .sub_menu .sub_menu_col ul { position: static !important; padding: 10px !important; width: 25%; }
@@ -65,8 +65,10 @@ button.btn { border-radius: 0px; }
 	.navbar-toggle .icon-bar { background-color: #fff; }
 }
 @media (max-width:767px) {
-	.navbar .navbar-form ul a { padding: 0px 15px; }
-	.navbar .badge { margin-top: 5px; float: left; }
+	.user_profile_img{top: 13px;}
+	.navbar .navbar-form ul a { padding: 0px 15px; position: relative; }
+	.navbar .navbar-form ul a i { padding: 0px 0px; position: relative; }
+	.navbar .badge { margin: 5px 0px 0px 20px; }
 	.navbar { padding-bottom: 0px; padding-top: 0px; }
 	.navbar_mob { display: table; width: 100%; top: 50px; top: 30px; padding: 0px; }
 	.navbar-fixed-top .navbar-collapse { border-top: 1px solid#fff; }
@@ -76,7 +78,7 @@ button.btn { border-radius: 0px; }
 	.sub_menu.sub_menu_mob { display: block; position: static; overflow: auto; }
 	.sub_menu.sub_menu_mob ul { float: left; }
 	.sub_menu { width: 100%; }
-	.navbar-form ul li { width: 100%; text-align: left; padding: 5px 5px; }
+	.navbar-form ul li { width: 100%; text-align: left; padding: 5px 5px; margin: 0px auto; display: table; }
 	.navbar .navbar-form ul li .form-control { background-size: 3%; background-position: 98%; }
 }
 @media (max-width:560px) {
