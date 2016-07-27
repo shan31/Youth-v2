@@ -70,19 +70,23 @@ a.btn { border-radius: 0px; }
 /*Common Center Div*/
 
 .common_center_div { background: #fff; border: 1px solid #e7ecf1 !important;    margin-bottom: 40px; }
-.common_center_section { padding: 10px; }
+.common_center_section { padding: 10px 30px;}
 .common_center_section h4 { text-transform: uppercase; font-weight: 600; color: #002550; margin: 0px; line-height: 33px; }
 .common_center_header { margin-bottom: 15px; border-bottom: 1px solid #eef1f5; padding-bottom: 15px; }
 .common_center_body h4{    color: #aaaaaa;
-    font-size: 16px;}
+    font-size: 16px;    margin-bottom: 20px;}
 /*Common Center Div */
 
 /*Add Youth Css*/
 
 .add_youth h3.pull-left { margin: 0px;     padding-right: 10px;}
 .add_youth h3.pull-left small { color: #FF0000; }
-.add_youth span { line-height: 33px; display: table; width: 100%; margin: 0px 0px 15px; border-bottom: 1px solid #eef1f5; padding-bottom: 15px; }
-.add_youth_personal{border-top: 1px solid #eef1f5;}
+.add_youth span.details{ line-height: 33px; display: table; width: 100%; margin: 0px 0px 15px; border-bottom: 1px solid #eef1f5; padding-bottom: 15px; }
+
+.add_youth_personal ul li{width: 33%;margin-bottom: 15px;}
+.add_youth_personal  ul li:nth-child(3n+3) {  
+padding-right: 0px;
+}
 /*End Youth Css*/
 
 /*Media Query*/
