@@ -5,7 +5,7 @@ custom styles
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,900italic,900,700italic,700,500italic,500,400italic);
 a:hover, a:focus { text-decoration: none; outline: none; }
 button:focus { outline: none; }
-body { font-family: 'Open Sans', sans-serif; }
+body { font-family: 'Open Sans', sans-serif; padding-top: 70px; background-color: #eef1f5; }
 
 /*Header Styles*/
 .navbar { background-color: #002550; border-bottom: none; padding: 10px; }
@@ -19,7 +19,7 @@ body { font-family: 'Open Sans', sans-serif; }
 .navbar .navbar-form ul { margin: 0px; }
 .navbar .navbar-form ul a { font-size: 16px; font-weight: 400; color: #aeb2c4; letter-spacing: 0.5px; padding: 0px 5px; line-height: 35px; font-family: 'Roboto', sans-serif; }
 .navbar .navbar-form ul a i { color: #737a99; font-size: 18px; top: 1px; right: 5px; position: relative; }
-.user_profile_img { width: 30px; height: 30px; border-radius: 50%; float: right; display: table; position: relative; top: 5px; }
+.navbar .navbar-form ul a img { width: 30px; height: 30px; border-radius: 50%; float: right; display: table; position: relative; top: 5px; }
 .sub_menu { position: fixed; width: 45%; background-color: #002550; top: 70px; display: none; z-index: 9; }
 .sub_menu_col { display: table; position: relative; float: left; width: 100%; padding: 10px; }
 .sub_menu .sub_menu_col ul { position: static !important; padding: 10px !important; width: 25%; }
@@ -33,17 +33,20 @@ body { font-family: 'Open Sans', sans-serif; }
 /*Header Styles*/
 
 /*Footer Styles*/
+
 footer { position: fixed; bottom: 0px; width: 100%; left: 0px; right: 0px; height: 25px; background: #002550; border-top: none; color: #FFF; }
 footer p { padding: 4px 10px; font-size: 12px; }
 
 /*Footer Styles*/
 
 /*Button Styles*/
-button.btn { border-radius: 0px; }
+
+a.btn { border-radius: 0px; }
 
 /*End Button Styles*/
 
 /*Dashboard Styles*/
+
 #inviteusers input { border-radius: 0px; height: 50px; margin-bottom: 10px; }
 #inviteusers .btn.btn-default { color: white; background: #3BC3FF; border-color: #3BC3FF; font-weight: 400; letter-spacing: 0.5px; font-family: 'Roboto', sans-serif; }
 #inviteusers .btn.btn-primary { color: white; background: #444; border-color: #444; font-weight: 400; letter-spacing: 0.5px; font-family: 'Roboto', sans-serif; }
@@ -51,11 +54,38 @@ button.btn { border-radius: 0px; }
 /*End Dashboard Styles*/
 
 /*Modal Styles*/
+
 .modal-content { border-radius: 0px; }
 .modal-header { background: #007AFF; color: #fff; }
 .modal-header .close { color: #fff; font-size: 30px; font-weight: 100; opacity: 1; }
 
 /*End Modal Styles*/
+
+/*Remove Padding Styles*/
+
+.col-condensed { padding-left: 0px !important; padding-right: 0px !important; }
+
+/*End Remove Padding Styles*/
+
+/*Common Center Div*/
+
+.common_center_div { background: #fff; border: 1px solid #e7ecf1 !important;    margin-bottom: 40px; }
+.common_center_section { padding: 10px; }
+.common_center_section h4 { text-transform: uppercase; font-weight: 600; color: #002550; margin: 0px; line-height: 33px; }
+.common_center_header { margin-bottom: 15px; border-bottom: 1px solid #eef1f5; padding-bottom: 15px; }
+.common_center_body h4{    color: #aaaaaa;
+    font-size: 16px;}
+/*Common Center Div */
+
+/*Add Youth Css*/
+
+.add_youth h3.pull-left { margin: 0px;     padding-right: 10px;}
+.add_youth h3.pull-left small { color: #FF0000; }
+.add_youth span { line-height: 33px; display: table; width: 100%; margin: 0px 0px 15px; border-bottom: 1px solid #eef1f5; padding-bottom: 15px; }
+.add_youth_personal{border-top: 1px solid #eef1f5;}
+/*End Youth Css*/
+
+/*Media Query*/
 @media (max-width:1280px) {
 	.navbar .navbar-form { margin: 0px auto; display: table; width: 100%; padding: 15px 0px; box-shadow: none; border-top: 1px solid #fff; }
 	.navbar .navbar-form ul { margin: 0px auto; display: table; }
@@ -65,10 +95,8 @@ button.btn { border-radius: 0px; }
 	.navbar-toggle .icon-bar { background-color: #fff; }
 }
 @media (max-width:767px) {
-	.user_profile_img{top: 13px;}
-	.navbar .navbar-form ul a { padding: 0px 15px; position: relative; }
-	.navbar .navbar-form ul a i { padding: 0px 0px; position: relative; }
-	.navbar .badge { margin: 5px 0px 0px 20px; }
+	.navbar .navbar-form ul a { padding: 0px 15px; }
+	.navbar .badge { margin-top: 5px; float: left; }
 	.navbar { padding-bottom: 0px; padding-top: 0px; }
 	.navbar_mob { display: table; width: 100%; top: 50px; top: 30px; padding: 0px; }
 	.navbar-fixed-top .navbar-collapse { border-top: 1px solid#fff; }
@@ -78,7 +106,7 @@ button.btn { border-radius: 0px; }
 	.sub_menu.sub_menu_mob { display: block; position: static; overflow: auto; }
 	.sub_menu.sub_menu_mob ul { float: left; }
 	.sub_menu { width: 100%; }
-	.navbar-form ul li { width: 100%; text-align: left; padding: 5px 5px; margin: 0px auto; display: table; }
+	.navbar-form ul li { width: 100%; text-align: left; padding: 5px 5px; }
 	.navbar .navbar-form ul li .form-control { background-size: 3%; background-position: 98%; }
 }
 @media (max-width:560px) {
