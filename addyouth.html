@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/effeckt.css">
-    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/transition.css">
     <link rel="stylesheet" href="css/dropdown.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://use.fontawesome.com/353b056921.js"></script>`
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -593,28 +594,28 @@
                                             </div>
                                         </li>
                                         <li>
-                                        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-condensed">
+                                            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-condensed">
                                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-condensed">
-                                            <div class="ui selection dropdown">
-                                                <input type="hidden" name="gender">
-                                                <i class="fa fa-angle-down"></i>
-                                                <div class="default text">Gender</div>
-                                                <div class="menu">
-                                                    <div class="item" data-value="1">Male</div>
-                                                    <div class="item" data-value="0">Female</div>
+                                                    <div class="ui selection dropdown">
+                                                        <input type="hidden" name="gender">
+                                                        <i class="fa fa-angle-down"></i>
+                                                        <div class="default text">Gender</div>
+                                                        <div class="menu">
+                                                            <div class="item" data-value="1">Male</div>
+                                                            <div class="item" data-value="0">Female</div>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            </div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-condensed">
                                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-condensed">
                                                     <!-- <label for="youthfirstname">Date of Birth</label>
-                                                    <input type="text" class="form-control input_all" id="youthfirstname" placeholder="Jane Doe"> -->
+                                                    <input type="text" class="form-control input_all" id="youthfirstname" placeholder="Jane Doe" value="02-16-2012"> -->
                                                     <span class="input input--chisato">
-                                                        <input class="input__field input__field--chisato" type="text" id="input-3" />
-                                                        <label class="input__label input__label--chisato" for="input-3">
+                                                        <input class="input__field input__field--chisato" type="text" id="datepicker" />
+                                                        <label class="input__label input__label--chisato" for="datepicker">
                                                             <span class="input__label-content input__label-content--chisato" data-content="Date of Birth">Date of Birth</span>
                                                     </label>
                                                     </span>
@@ -651,7 +652,7 @@
                                                         <option>MALE</option>
                                                         <option>FEMALE</option>
                                                     </select> -->
-                                                     <div class="ui selection dropdown">
+                                                    <div class="ui selection dropdown">
                                                         <input type="hidden" name="gender">
                                                         <i class="fa fa-angle-down"></i>
                                                         <div class="default text">Gender</div>
@@ -672,7 +673,7 @@
                                                         <option>MALE</option>
                                                         <option>FEMALE</option>
                                                     </select> -->
-                                                     <div class="ui selection dropdown">
+                                                    <div class="ui selection dropdown">
                                                         <input type="hidden" name="gender">
                                                         <i class="fa fa-angle-down"></i>
                                                         <div class="default text">Gender</div>
@@ -721,28 +722,41 @@
                                                         <option>MALE</option>
                                                         <option>FEMALE</option>
                                                     </select> -->
-                                                     <div class="ui selection dropdown">
-                                                        <input type="hidden" name="gender">
-                                                        <i class="fa fa-angle-down"></i>
-                                                        <div class="default text">Gender</div>
-                                                        <div class="menu">
-                                                            <div class="item" data-value="1">Male</div>
-                                                            <div class="item" data-value="0">Female</div>
-                                                        </div>
-                                                    </div>
+                                                    <select name="skills" multiple="" class="ui fluid dropdown">
+                                                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                        <option value="">Ethincity</option>
+                                                        <option value="angular">Angular</option>
+                                                        <option value="css">CSS</option>
+                                                        <option value="design">Graphic Design</option>
+                                                        <option value="ember">Ember</option>
+                                                        <option value="html">HTML</option>
+                                                        <option value="ia">Information Architecture</option>
+                                                        <option value="javascript">Javascript</option>
+                                                        <option value="mech">Mechanical Engineering</option>
+                                                        <option value="meteor">Meteor</option>
+                                                        <option value="node">NodeJS</option>
+                                                        <option value="plumbing">Plumbing</option>
+                                                        <option value="python">Python</option>
+                                                        <option value="rails">Rails</option>
+                                                        <option value="react">React</option>
+                                                        <option value="repair">Kitchen Repair</option>
+                                                        <option value="ruby">Ruby</option>
+                                                        <option value="ui">UI Design</option>
+                                                        <option value="ux">User Experience</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-condensed">
                                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-condensed">
-                                                   <!--  <label for="youthiwi">IWI</label>
+                                                    <!--  <label for="youthiwi">IWI</label>
                                                     <select class="form-control select_drop" id="youthiwi">
                                                         <option>--Select--</option>
                                                         <option>MALE</option>
                                                         <option>FEMALE</option>
                                                     </select> -->
-                                                     <div class="ui selection dropdown">
+                                                    <div class="ui selection dropdown">
                                                         <input type="hidden" name="gender">
                                                         <i class="fa fa-angle-down"></i>
                                                         <div class="default text">Gender</div>
@@ -766,7 +780,7 @@
                                 </div>
                                 <!-- End Personal Information -->
                                 <!-- Work Information -->
-<!--                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed add_youth_personal_info">
+                                <!--                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed add_youth_personal_info">
                                     <h4>Work Information</h4>
                                     <ul class="list-inline">
                                         <li>
@@ -947,10 +961,55 @@
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/transition.js"></script>
     <script src="js/vendor/dropdown.min.js"></script>
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <script src="js/vendor/classie.js"></script>
     <script src="js/main.js"></script>
     <script>
     $('.ui.dropdown')
         .dropdown();
+    </script>
+    <script>
+    $(function() {
+        $("#datepicker").datepicker({
+            showOtherMonths: true,
+            selectOtherMonths: true
+        });
+    });
+    </script>
+    <script>
+    (function() {
+        // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+        if (!String.prototype.trim) {
+            (function() {
+                // Make sure we trim BOM and NBSP
+                var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+                String.prototype.trim = function() {
+                    return this.replace(rtrim, '');
+                };
+            })();
+        }
+
+        [].slice.call(document.querySelectorAll('input.input__field')).forEach(function(inputEl) {
+            // in case the input is already filled..
+            if (inputEl.value.trim() !== '') {
+                classie.add(inputEl.parentNode, 'input--filled');
+            }
+
+            // events:
+            inputEl.addEventListener('focus', onInputFocus);
+            inputEl.addEventListener('blur', onInputBlur);
+        });
+
+        function onInputFocus(ev) {
+            classie.add(ev.target.parentNode, 'input--filled');
+        }
+
+        function onInputBlur(ev) {
+            if (ev.target.value.trim() === '') {
+                classie.remove(ev.target.parentNode, 'input--filled');
+            }
+        }
+    })();
     </script>
 </body>
 
