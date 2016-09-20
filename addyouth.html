@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://use.fontawesome.com/353b056921.js"></script>`
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
@@ -29,7 +30,7 @@
 </head>
 
 <body>
-    <!--  Header  -->
+        <!--  Header  -->
     <nav class="navbar navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -39,8 +40,100 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img class="img-responsive" src="img/header_logo.png" alt="logo"></a>
-                <ul class="list-inline hidden-xs">
+                <a href="javascript:void(0);" class="hamburger_icon"><i class="icon ion-navicon"></i></a>
+                <a class="navbar-brand" href="#"><img class="img-responsive" src="img/header_logo2.png" alt="logo"></a>
+                <div id="toggle">
+                    <div class="side-nav-wrapper">
+                        <span id="logo"><img src="img/header_logo1.png"alt="Logo"></span>
+                        <nav>
+                            <dl>
+                                <dt class="btn" data-toggle="collapse" data-target="#referral"  >ReferralHub</dt>
+                                <div id="referral" class="collapse">
+                                    <dd >
+                                        <a href="/material-design/introduction.html">Report</a>
+                                        <a href="/material-design/environment.html">Explore</a>
+                                        <a href="/material-design/material-properties.html">FInd Connections</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt class="btn" data-toggle="collapse" data-target="#communication"  >Communication</dt>
+                                <div  id="communication" class="collapse">
+                                    <dd>
+                                        <a href="/motion/material-motion.html">Calling Cycle</a>
+                                        <a href="/motion/duration-easing.html">Search by Status</a>
+                                        <a href="/motion/movement.html">Questions Setup</a>
+                                        <a href="/motion/transforming-material.html">Tags Setup</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt  class="btn" data-toggle="collapse" data-target="#youth">Youth</dt>
+                                <div id="youth" class="collapse">
+                                    <dd>
+                                        <a href="/style/color.html">Add/Import</a>
+                                        <a href="/style/icons.html">Active</a>
+                                        <a href="/style/imagery.html">Pending</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt   class="btn" data-toggle="collapse" data-target="#broadcast">Broadcast</dt>
+                                <div id="broadcast" class="collapse">
+                                    <dd >
+                                        <a href="/layout/principles.html">Events</a>
+                                        <a href="/layout/units-measurements.html">Map-Events</a>
+                                        <a href="/layout/metrics-keylines.html">Map-Jobs</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt  class="btn" data-toggle="collapse" data-target="#facebook">Facebook</dt>
+                                <div id="facebook" class="collapse">
+                                    <dd >
+                                        <a href="/components/bottom-navigation.html">Page</a>
+                                        <a href="/components/bottom-sheets.html">Inbox</a>
+                                        <a href="/components/buttons.html">Find Friends</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt class="btn" data-toggle="collapse" data-target="#serviceprovider" >Service Providers</dt>
+                                <div id="serviceprovider" class="collapse">
+                                    <dd>
+                                        <a href="/patterns/confirmation-acknowledgement.html">Add Service Providers</a>
+                                        <a href="/patterns/data-formats.html">View Service Providers</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt  class="btn" data-toggle="collapse" data-target="#businesshub">Business Hub</dt>
+                                <div id="businesshub" class="collapse">
+                                    <dd>
+                                        <a href="/growth-communications/introduction.html"> Add Business Hub</a>
+                                        <a href="/growth-communications/onboarding.html">View Business Hub</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt  class="btn" data-toggle="collapse" data-target="#jobs">Jobs</dt>
+                                <div id="jobs" class="collapse">
+                                    <dd>
+                                        <a href="/usability/accessibility.html">Job Categories</a>
+                                        <a href="/usability/bidirectionality.html">Job List</a>
+                                        <a href="/usability/bidirectionality.html">Browse Candidates</a>
+                                        <a href=""></a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            
+                        </nav>
+                        <div class="legal">
+                          <p>2016 © YouthHub</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="list-inline hide ">
                     <li><a href="#"><i class="fa fa-home home-icon"></i> Home </a></li>
                     <li><a href="#">Menu</a>
                         <div class="sub_menu">
@@ -160,7 +253,7 @@
                         <li><a href="#"><i class="fa fa-bell-o"></i><span class="badge">6</span></a></li>
                         <li><a href="#"><i class="fa fa-envelope-o"></i><span class="badge">99</span></a></li>
                         <li>
-                            <a href="#">YouthHub Coordinator<img class="img-responsive" src="img/this_logo1.PNG"></a>
+                            <a href="#">YouthHub Coordinator<img class="img-responsive"src="img/this_logo1.PNG"></a>
                         </li>
                     </ul>
                 </form>
@@ -570,12 +663,17 @@
                                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-condensed">
                                                     <!-- <label for="youthfirstname">First Name</label>
                                                     <input type="text" class="form-control input_all" id="youthfirstname" placeholder="Jane Doe"> -->
-                                                    <span class="input input--chisato">
-                                                        <input class="input__field input__field--chisato" type="text" id="input-1" />
-                                                        <label class="input__label input__label--chisato" for="input-1">
-                                                            <span class="input__label-content input__label-content--chisato" data-content="First Name">First Name</span>
-                                                    </label>
+                                                 
+                                                    <span class="input input--kozakura">
+                                                        <input class="input__field input__field--kozakura" type="text" id="input1" />
+                                                            <label class="input__label input__label--kozakura" for="input1">
+                                                                <span class="input__label-content input__label-content--kozakura" data-content="First Name">First Name</span>
+                                                            </label>
+                                                            <svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                                                <path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z" />
+                                                            </svg>
                                                     </span>
+                                               
                                                 </div>
                                             </div>
                                         </li>
@@ -584,12 +682,17 @@
                                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-condensed">
                                                     <!--   <label for="youthlastname">Last Name</label>
                                                     <input type="email" class="form-control input_all" id="youthlastname" placeholder="jane.doe@example.com"> -->
-                                                    <span class="input input--chisato">
-                                                        <input class="input__field input__field--chisato" type="text" id="input-2" />
-                                                        <label class="input__label input__label--chisato" for="input-2">
-                                                            <span class="input__label-content input__label-content--chisato" data-content="Last Name">Last Name</span>
-                                                    </label>
+                                                   
+                                                    <span class="input input--kozakura">
+                                                        <input class="input__field input__field--kozakura" type="text" id="input1" />
+                                                            <label class="input__label input__label--kozakura" for="input1">
+                                                                <span class="input__label-content input__label-content--kozakura" data-content="Last Name">Last Name</span>
+                                                            </label>
+                                                            <svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                                                <path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z" />
+                                                            </svg>
                                                     </span>
+                                                
                                                 </div>
                                             </div>
                                         </li>
@@ -613,12 +716,23 @@
                                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-condensed">
                                                     <!-- <label for="youthfirstname">Date of Birth</label>
                                                     <input type="text" class="form-control input_all" id="youthfirstname" placeholder="Jane Doe" value="02-16-2012"> -->
-                                                    <span class="input input--chisato">
+                                                  <!--   <span class="input input--chisato">
                                                         <input class="input__field input__field--chisato" type="text" id="datepicker" />
                                                         <label class="input__label input__label--chisato" for="datepicker">
                                                             <span class="input__label-content input__label-content--chisato" data-content="Date of Birth">Date of Birth</span>
                                                     </label>
+                                                    </span> -->
+                                                   
+                                                    <span class="input input--kozakura">
+                                                        <input class="input__field input__field--kozakura" type="text" id="datepicker" />
+                                                            <label class="input__label input__label--kozakura" for="datepicker">
+                                                                <span class="input__label-content input__label-content--kozakura" data-content="Date of Birth">Date of Birth</span>
+                                                            </label>
+                                                            <svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                                                <path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z" />
+                                                            </svg>
                                                     </span>
+                                               
                                                 </div>
                                             </div>
                                         </li>
@@ -690,12 +804,17 @@
                                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-condensed">
                                                     <!--    <label for="youthstreet">Street</label>
                                                     <input type="text" class="form-control input_all" id="youthstreet" placeholder="Jane Doe"> -->
-                                                    <span class="input input--chisato">
-                                                        <input class="input__field input__field--chisato" type="text" id="input-4" />
-                                                        <label class="input__label input__label--chisato" for="input-4">
-                                                            <span class="input__label-content input__label-content--chisato" data-content="Street">Street</span>
-                                                    </label>
+                                                
+                                                    <span class="input input--kozakura">
+                                                        <input class="input__field input__field--kozakura" type="text" id="input1" />
+                                                            <label class="input__label input__label--kozakura" for="input1">
+                                                                <span class="input__label-content input__label-content--kozakura" data-content="Street">Street</span>
+                                                            </label>
+                                                            <svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                                                <path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z" />
+                                                            </svg>
                                                     </span>
+                                                
                                                 </div>
                                             </div>
                                         </li>
@@ -704,12 +823,17 @@
                                                 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-condensed">
                                                     <!-- <label for="youthpostcode">Postcode</label>
                                                     <input type="text" class="form-control input_all" id="youthpostcode" placeholder="Jane Doe"> -->
-                                                    <span class="input input--chisato">
-                                                        <input class="input__field input__field--chisato" type="text" id="input-4" />
-                                                        <label class="input__label input__label--chisato" for="input-4">
-                                                            <span class="input__label-content input__label-content--chisato" data-content="Postcode">Postcode</span>
-                                                    </label>
+                                                   
+                                                    <span class="input input--kozakura">
+                                                        <input class="input__field input__field--kozakura" type="text" id="input1" />
+                                                            <label class="input__label input__label--kozakura" for="input1">
+                                                                <span class="input__label-content input__label-content--kozakura" data-content="Postcode">Postcode</span>
+                                                            </label>
+                                                            <svg class="graphic graphic--kozakura" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                                                <path d="M1200,9c0,0-305.005,0-401.001,0C733,9,675.327,4.969,598,4.969C514.994,4.969,449.336,9,400.333,9C299.666,9,0,9,0,9v43c0,0,299.666,0,400.333,0c49.002,0,114.66,3.484,197.667,3.484c77.327,0,135-3.484,200.999-3.484C894.995,52,1200,52,1200,52V9z" />
+                                                            </svg>
                                                     </span>
+                                              
                                                 </div>
                                             </div>
                                         </li>
@@ -958,6 +1082,7 @@
         </div>
     </div>
     <!-- End Invite Users Modal -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/transition.js"></script>
     <script src="js/vendor/dropdown.min.js"></script>

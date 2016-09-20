@@ -1,7 +1,7 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"lang=""> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="">
 <!--<![endif]-->
@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/effeckt.css">
     <link rel="stylesheet" href="css/main.css">
-    <script src="https://use.fontawesome.com/353b056921.js"></script>`
+    <script src="https://use.fontawesome.com/353b056921.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
@@ -25,7 +26,7 @@
 </head>
 
 <body>
-<!--  Header  -->
+    <!--  Header  -->
     <nav class="navbar navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -35,8 +36,100 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img class="img-responsive" src="img/header_logo.png" alt="logo"></a>
-                <ul class="list-inline hidden-xs">
+                <a href="javascript:void(0);" class="hamburger_icon"><i class="icon ion-navicon"></i></a>
+                <a class="navbar-brand" href="#"><img class="img-responsive" src="img/header_logo2.png" alt="logo"></a>
+                <div id="toggle">
+                    <div class="side-nav-wrapper">
+                        <span id="logo"><img src="img/header_logo1.png"alt="Logo"></span>
+                        <nav>
+                            <dl>
+                                <dt class="btn" data-toggle="collapse" data-target="#referral"  >ReferralHub</dt>
+                                <div id="referral" class="collapse">
+                                    <dd >
+                                        <a href="/material-design/introduction.html">Report</a>
+                                        <a href="/material-design/environment.html">Explore</a>
+                                        <a href="/material-design/material-properties.html">FInd Connections</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt class="btn" data-toggle="collapse" data-target="#communication"  >Communication</dt>
+                                <div  id="communication" class="collapse">
+                                    <dd>
+                                        <a href="/motion/material-motion.html">Calling Cycle</a>
+                                        <a href="/motion/duration-easing.html">Search by Status</a>
+                                        <a href="/motion/movement.html">Questions Setup</a>
+                                        <a href="/motion/transforming-material.html">Tags Setup</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt  class="btn" data-toggle="collapse" data-target="#youth">Youth</dt>
+                                <div id="youth" class="collapse">
+                                    <dd>
+                                        <a href="/style/color.html">Add/Import</a>
+                                        <a href="/style/icons.html">Active</a>
+                                        <a href="/style/imagery.html">Pending</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt   class="btn" data-toggle="collapse" data-target="#broadcast">Broadcast</dt>
+                                <div id="broadcast" class="collapse">
+                                    <dd >
+                                        <a href="/layout/principles.html">Events</a>
+                                        <a href="/layout/units-measurements.html">Map-Events</a>
+                                        <a href="/layout/metrics-keylines.html">Map-Jobs</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt  class="btn" data-toggle="collapse" data-target="#facebook">Facebook</dt>
+                                <div id="facebook" class="collapse">
+                                    <dd >
+                                        <a href="/components/bottom-navigation.html">Page</a>
+                                        <a href="/components/bottom-sheets.html">Inbox</a>
+                                        <a href="/components/buttons.html">Find Friends</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt class="btn" data-toggle="collapse" data-target="#serviceprovider" >Service Providers</dt>
+                                <div id="serviceprovider" class="collapse">
+                                    <dd>
+                                        <a href="/patterns/confirmation-acknowledgement.html">Add Service Providers</a>
+                                        <a href="/patterns/data-formats.html">View Service Providers</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt  class="btn" data-toggle="collapse" data-target="#businesshub">Business Hub</dt>
+                                <div id="businesshub" class="collapse">
+                                    <dd>
+                                        <a href="/growth-communications/introduction.html"> Add Business Hub</a>
+                                        <a href="/growth-communications/onboarding.html">View Business Hub</a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            <dl>
+                                <dt  class="btn" data-toggle="collapse" data-target="#jobs">Jobs</dt>
+                                <div id="jobs" class="collapse">
+                                    <dd>
+                                        <a href="/usability/accessibility.html">Job Categories</a>
+                                        <a href="/usability/bidirectionality.html">Job List</a>
+                                        <a href="/usability/bidirectionality.html">Browse Candidates</a>
+                                        <a href=""></a>
+                                    </dd>
+                                </div>
+                            </dl>
+                            
+                        </nav>
+                        <div class="legal">
+                          <p>2016 © YouthHub</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="list-inline hide ">
                     <li><a href="#"><i class="fa fa-home home-icon"></i> Home </a></li>
                     <li><a href="#">Menu</a>
                         <div class="sub_menu">
@@ -156,7 +249,7 @@
                         <li><a href="#"><i class="fa fa-bell-o"></i><span class="badge">6</span></a></li>
                         <li><a href="#"><i class="fa fa-envelope-o"></i><span class="badge">99</span></a></li>
                         <li>
-                            <a href="#">YouthHub Coordinator<img class="img-responsive" src="img/this_logo1.PNG"></a>
+                            <a href="#">YouthHub Coordinator<img class="img-responsive"src="img/this_logo1.PNG"></a>
                         </li>
                     </ul>
                 </form>
@@ -264,11 +357,10 @@
                     </div>
                 </div>
             </div>
-                <!--End Mobile Search Menu -->
+            <!--End Mobile Search Menu -->
         </div>
     </nav>
     <!-- End Header -->
-
     <!-- Mobile Search Form -->
     <nav class="navbar navbar_mob hidden-lg hidden-md ">
         <form class="navbar-form hidden-lg hidden-md hidden-sm " role="form">
@@ -280,23 +372,19 @@
                 <li><a href="#"><i class="fa fa-bell-o"></i><span class="badge">6</span></a></li>
                 <li><a href="#"><i class="fa fa-envelope-o"></i><span class="badge">99</span></a></li>
                 <li>
-                    <a href="#">YouthHub Coordinator<img class="img-responsive" src="img/this_logo1.PNG"></a>
+                    <a href="#">YouthHub Coordinator<img class="img-responsive"src="img/this_logo1.PNG"></a>
                 </li>
             </ul>
         </form>
     </nav>
-     <!-- End Mobile Search Form -->
-
-<!-- Body Section -->
-
-<div class="container-fluid ">
-<div class="container">
-    <h1>Hai</h1>
-</div>
-    
-</div>
-<!-- End Body Section -->
-
+    <!-- End Mobile Search Form -->
+    <!-- Body Section -->
+    <div class="container-fluid ">
+        <div class="container">
+            <h1>Hai</h1>
+        </div>
+    </div>
+    <!-- End Body Section -->
     <!-- Footer -->
     <footer>
         <div class="container-fluid">
@@ -304,20 +392,18 @@
         </div>
     </footer>
     <!-- End Footer -->
-
-    
     <!-- Invite Users Modal -->
     <div class="modal fade" id="inviteusers" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel"><i class="fa fa-users" aria-hidden="true"></i> Invite Users</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times; </span></button>
+                    <h4 class="modal-title" id="myModalLabel"><i class="fa fa-users"aria-hidden="true"></i> Invite Users</h4>
                 </div>
                 <div class="modal-body">
                     <p>Invite your networks and friends to be in touch through Youth Hub. Simply enter their emails and click invite.</p>
                     <input type="text" class="form-control" placeholder="Text input">
-                    <cite>Eg: example1@mail.com,example2@mail.com</cite>
+                    <cite>Eg:example1@mail.com, example2@mail.com</cite>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default">Invite</button>
@@ -327,8 +413,8 @@
         </div>
     </div>
     <!-- End Invite Users Modal -->
-
     <script src="js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
