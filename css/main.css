@@ -84,7 +84,8 @@ footer p{padding: 4px 10px;
     font-weight: 700;}
 a.btn{border-radius:0px}
 .hamburger_icon{font-size: 32px;    position: absolute;
-    top: 15px;    color: #fff;}
+    top: 15px;    color: #fff;    left: 25px;
+}
     #toggle {
      border-right: 1px solid rgba(0, 0, 0, 0.14);
     bottom: 0;
