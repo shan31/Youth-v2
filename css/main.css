@@ -177,6 +177,27 @@ box-shadow: none!important;
 .add_youth_personal ul li{width:33%;    margin-bottom: 15px;
         margin: 0px 0px 0px;}
 .add_youth_personal ul li:nth-child(3n+3){padding-right:0px}
+.youth_info_whole{color: #aaaaaa;
+    font-size: 16px;
+  
+    margin-bottom: 10px;
+    padding-bottom: 10px;}
+        
+    .youth_info_whole h4{
+    	    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #1bbbfb;
+    margin: 0px 0px;
+    padding: 5px 5px;
+    background-color: #1bbbfb;
+    font-family: 'Roboto',sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
 @media (max-width:1280px){
 	body{padding-top:0px}
 	.common_center_div{margin-top:130px}
@@ -186,23 +207,38 @@ box-shadow: none!important;
 	.navbar-header{width:100%}
 	.navbar .navbar-header ul{float:right}
 	.navbar-toggle .icon-bar{background-color:#fff}
+		.navbar .navbar-brand {
+    padding: 0px;
+    width: 100%;
+    float: none;
+    display: table;
+    margin: 0 auto;
+}
+.hamburger_icon{
+	    top: 5px;
+}
+.navbar-brand>img{
+	    display: table;
+    margin: 5px auto 0px;
+}
 }
 @media (max-width:990px){
 	.add_youth_personal ul li{width:49.7%}
 }
 @media (min-width:767px){
 	.sub_menu{    display: none!important;}
-	
+
 }
 
 @media (max-width:767px){
+	.navbar{box-shadow: none;}
 	.add_youth_personal ul li{width:100%;margin-bottom:15px;margin:15px 0px}
 	.common_center_div{margin-top:20px}
 	.ui-widget.ui-widget-content{width:86.2%}
 	.navbar .navbar-form ul a{padding:0px 15px}
 	.navbar .badge{margin-top:5px;float:left}
 	.navbar{padding-bottom:0px;padding-top:0px}
-	.navbar_mob{display:table;width:100%;top:50px;top:30px;padding:0px}
+	.navbar_mob{display:table;width:100%;top:50px;top:30px;padding:0px;box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
 	.navbar-fixed-top .navbar-collapse{border-top:1px solid#fff}
 	.container-fluid>.navbar-header{margin:0px}
 	.navbar .container-fluid{padding:0px}

@@ -79,7 +79,7 @@ label { color: #aaaaaa; text-transform: uppercase; font-weight: 600; }
 .ui.multiple.dropdown>.label { background: #1BBBFB; color: #fff; border-radius: 0px; }
 .ui.label>.close.icon, .ui.label>.delete.icon { cursor: pointer; margin-right: 0; margin-left: .5em; font-size: .92857143em; opacity: .5; -webkit-transition: background .1s ease; transition: background .1s ease; }
 i.icon.cancel:before, i.icon.close:before, i.icon.delete:before, i.icon.x:before { content: "\f00d"; font-family: FontAwesome; color: #000; }
-.ui.dropdown:not(.button)>.default.text { font-weight: 400; color: #aaaaaa; font-family: 'Roboto', sans-serif; text-transform: uppercase; text-indent: -3px; }
+.ui.dropdown:not(.button)>.default.text { font-weight: 400; color: #aaaaaa; font-family: 'Roboto', sans-serif; text-transform: uppercase; text-indent: -3px;     font-size: 12px;}
 .ui.dropdown .menu>.item:hover { background: rgb(0, 144, 255); color: rgb(255, 255, 255); z-index: 13; }
 
 /*End Drop Down Styles*/
@@ -131,5 +131,5 @@ fieldset { border: medium none !important; margin: 0 0 10px; min-width: 100%; pa
 }
 @media (max-width:480px) {
 
-  #contact li { width:100%; padding: 10px!important;}
+  #contact li { width:100%; padding: 10px 0px!important;}
 }
