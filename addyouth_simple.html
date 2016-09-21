@@ -900,8 +900,173 @@
                                 </ul>
                                
                             </form>
+                                <!-- Begin  Case Management Details -->
+                        <div class="details">
+                            <h3 class="pull-left">Case Management Details <small>Please Note: </small></h3>All information updated here will be not show to youth or any other providers
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed">
+                                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 col-condensed">
+                                        <label for="casenotes">Case Notes:</label>
+                                        <textarea class="form-control textarea_all" rows="5" id="casenotes"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End  Case Management Details -->
                         </div>
                         <!-- End Work Information -->
+
+                        <!-- Begin Youth Communication Preferences -->
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 youth_info_whole form-style-5 col-condensed">
+                            <h4>Youth Communication Preferences</h4>
+                            <form id="contact" action="" method="post">
+                                <ul class="list-inline">
+                                    <li>
+                                      <div class="form-group">
+                                            <label for="text">E-Mail</label>
+                                            <input type="text" class="form-control" id="email" placeholder="E-Mail">
+                                        </div>
+                                    </li>
+                                    <li>
+                                         <div class="form-group">
+                                            <label for="landlinenumber">Landline-Number</label>
+                                            <input type="text" class="form-control" id="landlinenumber" placeholder="Landline-Number">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="mobilenumber">Mobile-Number</label>
+                                            <input type="text" class="form-control" id="mobilenumber" placeholder="Mobile-Number">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="bestcontactmethod">Best contact method</label>
+                                            <div class="ui selection dropdown">
+                                                <input type="hidden" name="bestcontactmethod">
+                                                <i class="fa fa-angle-down"></i>
+                                                <div class="default text">Best contact method</div>
+                                                <div class="menu">
+                                                    <div class="item" data-value="1">Male</div>
+                                                    <div class="item" data-value="0">Female</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                         <div class="form-group">
+                                            <label for="twitterlink">Twitter Link</label>
+                                            <input type="text" class="form-control" id="twitterlink" placeholder="Twitter Link">
+                                        </div>
+                                    </li>
+                                    <li>
+                                          <div class="form-group">
+                                            <label for="googlepluslink">Google Plus Link</label>
+                                            <input type="text" class="form-control" id="googlepluslink" placeholder="Google Plus Link">
+                                        </div>
+                                    </li>
+                                    <li>
+                                          <div class="form-group">
+                                            <label for="facebooklink">Facebook  Link</label>
+                                            <input type="text" class="form-control" id="facebooklink" placeholder="Facebook Link">
+                                        </div>
+                                    </li>
+                                    <li>
+                                          <div class="form-group">
+                                            <label for="linkedinlink">Linkedin Link</label>
+                                            <input type="text" class="form-control" id="linkedinlink" placeholder="Linkedin Link">
+                                        </div>
+                                    </li>
+                                    <li>
+                                         <div class="form-group">
+                                            <label for="githublink">Github Link</label>
+                                            <input type="text" class="form-control" id="githublink" placeholder="Github Link">
+                                        </div>
+                                    </li>
+                                    <li>
+                                          <div class="form-group">
+                                            <label for="behancelink">Behance  Link</label>
+                                            <input type="text" class="form-control" id="behancelink" placeholder="Behance  Link">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                        <!-- End Youth Communication Preferences -->
+
+                    
+
+                            <!-- Begin Contact Information -->
+                               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 youth_info_whole form-style-5 col-condensed">
+                            <h4>Contact Information</h4>
+                            <form id="contact" action="" method="post">
+                                <ul class="list-inline">
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="type">Type</label>
+                                            <div class="ui selection dropdown">
+                                                <input type="hidden" name="type">
+                                                <i class="fa fa-angle-down"></i>
+                                                <div class="default text">Type</div>
+                                                <div class="menu">
+                                                    <div class="item" data-value="1">Male</div>
+                                                    <div class="item" data-value="0">Female</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                         <div class="form-group">
+                                            <label for="firstname">First Name</label>
+                                            <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="lastname">Last Name</label>
+                                            <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+                                        </div>
+                                    </li>
+                                    <li>
+                                      <div class="form-group">
+                                            <label for="text">E-Mail</label>
+                                            <input type="text" class="form-control" id="email" placeholder="E-Mail">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="homecontactnumber">Home Contact Number</label>
+                                            <input type="text" class="form-control" id="homecontactnumber" placeholder="Home Contact Number">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="mobilenumber">Mobile-Number</label>
+                                            <input type="text" class="form-control" id="mobilenumber" placeholder="Mobile-Number">
+                                        </div>
+                                    </li>
+                                    <li>
+                                         <div class="form-group">
+                                            <label for="bestcontacttime">Best contact time</label>
+                                            <input type="text" class="form-control" id="bestcontacttime" placeholder="Best contact time">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="housingsituation">Housing Situation</label>
+                                            <div class="ui selection dropdown">
+                                                <input type="hidden" name="type">
+                                                <i class="fa fa-angle-down"></i>
+                                                <div class="default text">Housing Situation</div>
+                                                <div class="menu">
+                                                    <div class="item" data-value="1">Male</div>
+                                                    <div class="item" data-value="0">Female</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                            <!-- End  Contact Information -->
                     </div>
                 </div>
                 <div>
