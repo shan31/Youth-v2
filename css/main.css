@@ -160,8 +160,15 @@ box-shadow: none!important;
 .modal-header .close{color:#fff;font-size:30px;font-weight:100;opacity:1}
 .col-condensed{padding-left:0px!important;padding-right:0px!important}
 .common_center_div{background:#fff;border:1px solid #e7ecf1!important;margin-bottom:40px}
-.common_center_section{padding:10px 30px}
-.common_center_section h4{text-transform:uppercase;font-weight:600;color:#002550;margin:0px;line-height:33px}
+.common_center_section{padding: 15px 20px;}
+.common_center_section h4{    text-transform: uppercase;
+    font-weight: 500;
+    color: #002550;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 1px;
+    margin: 0px;
+    line-height: 33px;
+}
 .common_center_header{margin-bottom:15px;border-bottom:1px solid #eef1f5;padding-bottom:15px}
 .common_center_body h4{color:#aaaaaa;font-size:16px;margin:10px 0px;}
 .add_youth h3.pull-left{margin:0px;padding-right:10px}
@@ -185,6 +192,7 @@ box-shadow: none!important;
 }
 @media (min-width:767px){
 	.sub_menu{    display: none!important;}
+	
 }
 
 @media (max-width:767px){
