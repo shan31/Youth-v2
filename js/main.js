@@ -9,3 +9,5 @@ $(".navbar .navbar-header ul li").hover(function()
 $( '.hamburger_icon' ).click(function() {
   $( "#toggle" ).toggle( "slide" );
 });
+
+id="datepicker"

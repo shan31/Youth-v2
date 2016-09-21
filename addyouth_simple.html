@@ -1,0 +1,553 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Youthhub</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="css/effeckt.css" />
+    <link rel="stylesheet" href="css/transition.css" />
+    <link rel="stylesheet" href="css/dropdown.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pretty-checkbox/2.0.3/pretty.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://use.fontawesome.com/353b056921.js"></script>`
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+</head>
+
+<body>
+    <!--  Header  -->
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="javascript:void(0);" class="hamburger_icon"><i class="icon ion-navicon"></i></a>
+                <a class="navbar-brand" href="#"><img class="img-responsive" src="img/header_logo2.png" alt="logo"></a>
+                <div id="toggle">
+                    <div class="side-nav-wrapper">
+                        <span id="logo"><img src="img/header_logo1.png"alt="Logo"></span>
+                        <nav>
+                            <a class="btn" data-toggle="collapse" data-target="#referral">ReferralHub</a>
+                            <div id="referral" class="collapse">
+                                <a href="/material-design/introduction.html">Report</a>
+                                <a href="/material-design/environment.html">Explore</a>
+                                <a href="/material-design/material-properties.html">FInd Connections</a>
+                            </div>
+                            <a class="btn" data-toggle="collapse" data-target="#communication">Communication</a>
+                            <div id="communication" class="collapse">
+                                <a href="/motion/material-motion.html">Calling Cycle</a>
+                                <a href="/motion/duration-easing.html">Search by Status</a>
+                                <a href="/motion/movement.html">Questions Setup</a>
+                                <a href="/motion/transforming-material.html">Tags Setup</a>
+                            </div>
+                            <a class="btn" data-toggle="collapse" data-target="#youth">Youth</a>
+                            <div id="youth" class="collapse">
+                                <a href="/style/color.html">Add/Import</a>
+                                <a href="/style/icons.html">Active</a>
+                                <a href="/style/imagery.html">Pending</a>
+                            </div>
+                            <a class="btn" data-toggle="collapse" data-target="#broadcast">Broadcast</a>
+                            <div id="broadcast" class="collapse">
+                                <a href="/layout/principles.html">Events</a>
+                                <a href="/layout/units-measurements.html">Map-Events</a>
+                                <a href="/layout/metrics-keylines.html">Map-Jobs</a>
+                            </div>
+                            <a class="btn" data-toggle="collapse" data-target="#facebook">Facebook</a>
+                            <div id="facebook" class="collapse">
+                                <a href="/components/bottom-navigation.html">Page</a>
+                                <a href="/components/bottom-sheets.html">Inbox</a>
+                                <a href="/components/buttons.html">Find Friends</a>
+                            </div>
+                            <a class="btn" data-toggle="collapse" data-target="#serviceprovider">Service Providers</a>
+                            <div id="serviceprovider" class="collapse">
+                                <a href="/patterns/confirmation-acknowledgement.html">Add Service Providers</a>
+                                <a href="/patterns/data-formats.html">View Service Providers</a>
+                            </div>
+                            <a class="btn" data-toggle="collapse" data-target="#businesshub">Business Hub</a>
+                            <div id="businesshub" class="collapse">
+                                <a href="/growth-communications/introduction.html"> Add Business Hub</a>
+                                <a href="/growth-communications/onboarding.html">View Business Hub</a>
+                            </div>
+                            <a class="btn" data-toggle="collapse" data-target="#jobs">Jobs</a>
+                            <div id="jobs" class="collapse">
+                                <a href="/usability/accessibility.html">Job Categories</a>
+                                <a href="/usability/bidirectionality.html">Job List</a>
+                                <a href="/usability/bidirectionality.html">Browse Candidates</a>
+                                <a href=""></a>
+                            </div>
+                        </nav>
+                        <div class="legal">
+                            <p>2016 © YouthHub</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="list-inline hide ">
+                    <li><a href="#"><i class="fa fa-home home-icon"></i> Home </a></li>
+                    <li><a href="#">Menu</a>
+                        <div class="sub_menu">
+                            <div class="sub_menu_col">
+                                <ul class="list-unstyled ">
+                                    <li><a href="#"> ReferralHub </a></li>
+                                    <li><a href="#"> Report </a></li>
+                                    <li><a href="#"> Explore </a></li>
+                                    <li><a href="#"> FInd Connections </a></li>
+                                </ul>
+                                <ul class="list-unstyled ">
+                                    <li>
+                                        <h5>Communication</h5></li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Calling Cycle </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Search by Status </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Questions Setup </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Tags Setup </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled ">
+                                    <li>
+                                        <h5> Youth </h5></li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Add/Import</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Active </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Pending </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled ">
+                                    <li>
+                                        <h5> Broadcast </h5></li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Events </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Map-Events </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Map-Jobs </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sub_menu_col">
+                                <ul class="list-unstyled ">
+                                    <li>
+                                        <h5>Facebook </h5></li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Page </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Inbox </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Find Friends </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled ">
+                                    <li>
+                                        <h5>Service Providers </h5></li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Add Service Providers </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>View Service Providers </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled ">
+                                    <li>
+                                        <h5>Business Hub </h5></li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i> Add Business Hub </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i> View Business Hub </a>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled ">
+                                    <li>
+                                        <h5>Jobs </h5></li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i> Job Categories </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Job List </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Add Jobs </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-angle-right"></i>Browse Candidates</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Mobile Menus -->
+            <div id="navbar" class="navbar-collapse collapse">
+                <form class="navbar-form hidden-xs">
+                    <ul class="list-inline">
+                        <li>
+                            <input type="search" class="form-control" placeholder="Search..." />
+                        </li>
+                        <li><a href="#" data-toggle="modal" data-target="#inviteusers">Invite Users<span class="badge">+</span></a></li>
+                        <li><a href="#"><i class="fa fa-bell-o"></i><span class="badge">6</span></a></li>
+                        <li><a href="#"><i class="fa fa-envelope-o"></i><span class="badge">99</span></a></li>
+                        <li>
+                            <a href="#">YouthHub Coordinator<img class="img-responsive"src="img/this_logo1.PNG"alt="logo"></a>
+                        </li>
+                    </ul>
+                </form>
+                <div class="sub_menu sub_menu_mob">
+                    <div class="sub_menu_col">
+                        <ul class="list-unstyled ">
+                            <li><a href="#"> ReferralHub </a></li>
+                            <li><a href="#"> Report </a></li>
+                            <li><a href="#"> Explore </a></li>
+                            <li><a href="#"> FInd Connections </a></li>
+                        </ul>
+                        <ul class="list-unstyled ">
+                            <li>
+                                <h5>Communication</h5></li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Calling Cycle </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Search by Status </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Questions Setup </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Tags Setup </a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled ">
+                            <li>
+                                <h5> Youth </h5></li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Add/Import</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Active </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Pending </a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled ">
+                            <li>
+                                <h5> Broadcast </h5></li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Events </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Map-Events </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Map-Jobs </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sub_menu_col">
+                        <ul class="list-unstyled ">
+                            <li>
+                                <h5>Facebook </h5></li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Page </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Inbox </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Find Friends </a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled ">
+                            <li>
+                                <h5>Service Providers </h5></li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Add Service Providers </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>View Service Providers </a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled ">
+                            <li>
+                                <h5>Business Hub </h5></li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i> Add Business Hub </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i> View Business Hub </a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled ">
+                            <li>
+                                <h5>Jobs </h5></li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i> Job Categories </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Job List </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Add Jobs </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-angle-right"></i>Browse Candidates</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--End Mobile Search Menu -->
+        </div>
+    </nav>
+    <!-- End Header -->
+    <!-- Mobile Search Form -->
+    <nav class="navbar navbar_mob hidden-lg hidden-md ">
+        <form class="navbar-form hidden-lg hidden-md hidden-sm ">
+            <ul class="list-inline">
+                <li>
+                    <input type="search" class="form-control" placeholder="Search..." />
+                </li>
+                <li><a href="#" data-toggle="modal" data-target="#inviteusers">Invite Users<span class="badge">+</span></a></li>
+                <li><a href="#"><i class="fa fa-bell-o"></i><span class="badge">6</span></a></li>
+                <li><a href="#"><i class="fa fa-envelope-o"></i><span class="badge">99</span></a></li>
+                <li>
+                    <a href="#">YouthHub Coordinator<img class="img-responsive"src="img/this_logo1.PNG"alt="logo"></a>
+                </li>
+            </ul>
+        </form>
+    </nav>
+    <!-- End Mobile Search Form -->
+    <!-- Body Section -->
+    <div class="container-fluid ">
+        <!-- Add Youth Section-->
+        <div class="container common_center_div">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 common_center_section">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed common_center_header">
+                        <h4 class="pull-left">Add Youth</h4>
+                        <a href="javascript:void(0);" class="btn btn-default pull-right"><i class="fa fa-upload"aria-hidden="true"></i>Import Youths From Csv</a>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-condensed common_center_body add_youth">
+                        <div class="details">
+                            <h3 class="pull-left">Youth Profile details <small>Please Note: </small></h3>All changes here will be reflected on the youth profile</div>
+                        <div class="col-lg-12 form-style-5 col-condensed">
+                            <h4>Personal Information</h4>
+                            <form id="contact" action="" method="post">
+                                <ul class="list-inline">
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="FirstName">First Name</label>
+                                            <input type="text" class="form-control" id="FirstName" placeholder="First Name">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="LastName">Last Name</label>
+                                            <input type="text" class="form-control" id="LastName" placeholder="Last Name">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Gender</label>
+                                            <div class="pretty inline circle smooth outline-primary">
+                                                <input type="radio" name="radio44">
+                                                <label><i class="ion-man"></i>Male</label>
+                                            </div>
+                                            <div class="pretty inline circle smooth outline-success">
+                                                <input type="radio" name="radio44">
+                                                <label><i class="ion-woman"></i>Female</label>
+                                            </div>
+                                            <div class="pretty inline circle smooth outline-info">
+                                                <input type="radio" name="radio44">
+                                                <label><i class="ion-transgender"></i>Other</label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="datepicker">Date</label>
+                                            <input type="text" class="form-control" id="datepicker" placeholder="Date">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="Region">Region</label>
+                                            <div class="ui selection dropdown">
+                                                <input type="hidden" name="Region">
+                                                <i class="fa fa-angle-down"></i>
+                                                <div class="default text">Region</div>
+                                                <div class="menu">
+                                                    <div class="item" data-value="1">Male</div>
+                                                    <div class="item" data-value="0">Female</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="districtcity">District / City *</label>
+                                            <div class="ui selection dropdown">
+                                                <input type="hidden" name="districtcity">
+                                                <i class="fa fa-angle-down"></i>
+                                                <div class="default text">District / City</div>
+                                                <div class="menu">
+                                                    <div class="item" data-value="1">Male</div>
+                                                    <div class="item" data-value="0">Female</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="suburb">Suburb *</label>
+                                            <div class="ui selection dropdown">
+                                                <input type="hidden" name="districtcity">
+                                                <i class="fa fa-angle-down"></i>
+                                                <div class="default text">Suburb</div>
+                                                <div class="menu">
+                                                    <div class="item" data-value="1">Male</div>
+                                                    <div class="item" data-value="0">Female</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="street">Street</label>
+                                            <input type="text" class="form-control" id="street" placeholder="Street">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="postcode">Postcode</label>
+                                            <input type="text" class="form-control" id="postcode" placeholder="Postcode">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="ethnicity">Ethnicity *</label>
+                                            <div class="ui selection dropdown">
+                                                <input type="hidden" name="ethnicity">
+                                                <i class="fa fa-angle-down"></i>
+                                                <div class="default text">Ethnicity</div>
+                                                <div class="menu">
+                                                    <div class="item" data-value="1">Male</div>
+                                                    <div class="item" data-value="0">Female</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-group">
+                                            <label for="iwi">Iwi</label>
+                                            <div class="ui selection dropdown">
+                                                <input type="hidden" name="iwi">
+                                                <i class="fa fa-angle-down"></i>
+                                                <div class="default text">Iwi</div>
+                                                <div class="menu">
+                                                    <div class="item" data-value="1">Male</div>
+                                                    <div class="item" data-value="0">Female</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <form>
+                                        <button type="submit" class="btn btn-default">Submit</button>
+                                    </form>
+                                </ul>
+                                <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+        <!--End Add Youth Section  -->
+    </div>
+    <!-- End Body Section -->
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <p>2016 © YouthHub</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Invite Users Modal -->
+    <div class="modal fade" id="inviteusers" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times; </span></button>
+                    <h4 class="modal-title" id="myModalLabel"><i class="fa fa-users"aria-hidden="true"></i> Invite Users</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Invite your networks and friends to be in touch through Youth Hub. Simply enter their emails and click invite.</p>
+                    <input type="text" class="form-control" placeholder="Text input">
+                    <cite>Eg: example1@mail.com, example2@mail.com</cite>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default">Invite</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Invite Users Modal -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/transition.js"></script>
+    <script src="js/vendor/dropdown.min.js"></script>
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <script src="js/vendor/classie.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    $('.ui.dropdown')
+        .dropdown();
+    </script>
+    <script>
+    $(function() {
+        $("#datepicker").datepicker({
+            showOtherMonths: true,
+            selectOtherMonths: true
+        });
+    });
+    </script>
+</body>
+
+</html>
