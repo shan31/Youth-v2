@@ -4,7 +4,7 @@ a:hover,
 a:focus{text-decoration:none;outline:none}
 button:focus{outline:none}
 body{padding-top:70px;background-color:#eef1f5}
-.navbar{background-color: #1BBBFB;
+.navbar{background-color: #002550;
     border-bottom: none;
     padding: 10px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
