@@ -79,7 +79,7 @@ label { color: #aaaaaa; text-transform: uppercase; font-weight: 600; }
 .ui.multiple.dropdown>.label { background: #1BBBFB; color: #fff; border-radius: 0px; }
 .ui.label>.close.icon, .ui.label>.delete.icon { cursor: pointer; margin-right: 0; margin-left: .5em; font-size: .92857143em; opacity: .5; -webkit-transition: background .1s ease; transition: background .1s ease; }
 i.icon.cancel:before, i.icon.close:before, i.icon.delete:before, i.icon.x:before { content: "\f00d"; font-family: FontAwesome; color: #000; }
-.ui.dropdown:not(.button)>.default.text { font-weight: 400; color: #aaaaaa; font-family: 'Roboto', sans-serif; text-transform: uppercase; text-indent: -3px;     font-size: 12px;}
+.ui.dropdown:not(.button)>.default.text { font-weight: 400; color: #aaaaaa; font-family: 'Roboto', sans-serif; text-transform: uppercase; text-indent: -3px; font-size: 12px; }
 .ui.dropdown .menu>.item:hover { background: rgb(0, 144, 255); color: rgb(255, 255, 255); z-index: 13; }
 
 /*End Drop Down Styles*/
@@ -118,18 +118,40 @@ fieldset { border: medium none !important; margin: 0 0 10px; min-width: 100%; pa
 ::-moz-placeholder { color: #888; font-size: 15px; }
 :-ms-input-placeholder { color: #888; font-size: 15px; }
 .details { width: 100%; float: left; margin-bottom: 15px; line-height: 30px; }
+
+/*Button Styles*/
+.common_center_header .btn {  
+  position: relative;
+    display: block;
+    overflow: hidden;
+    border-width: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    background: #9C27B0!important;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    transition: background .3s;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-shadow: none;
+  }
+    .common_center_header .btn:hover, .common_center_header .btn:focus {
+  background: #2196F3;
+}
+
 @media (max-width:1024px) {
-  #contact ul li:nth-child(2n+0) {     padding-right: 10px; }
+  #contact ul li:nth-child(2n+0) { padding-right: 10px; }
   #contact ul li:nth-child(3n+0) { padding-right: 0px; }
   #contact li { width: calc(34.5% - 1em); }
 }
 @media (max-width:767px) {
-
   #contact ul li:nth-child(3n+0) { padding-right: 10px; }
   #contact ul li:nth-child(2n+0) { padding-right: 0px; }
   #contact li { width: calc(51.7% - 1em); }
 }
 @media (max-width:480px) {
-
-  #contact li { width:100%; padding: 10px 0px!important;}
+  #contact li { width: 100%; padding: 10px 0px !important; }
 }

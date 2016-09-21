@@ -8,6 +8,9 @@ $(".navbar .navbar-header ul li").hover(function()
 
 $( '.hamburger_icon' ).click(function() {
   $( "#toggle" ).toggle( "slide" );
+  return false;
 });
-
-id="datepicker"
+$( '.side-nav-wrapper #logo i' ).click(function() {
+  $( "#toggle" ).toggle( "slide" );
+  return true;
+});

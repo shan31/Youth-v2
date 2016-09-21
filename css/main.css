@@ -109,14 +109,22 @@ a.btn{border-radius:0px}
     padding: 12px 0 11px 24px;
     position: relative;
 }
- .side-nav-wrapper nav dl dt {
+ .side-nav-wrapper nav  a.btn {
     border-left: 2px solid transparent;
     color: #212121;
 box-shadow: none!important;
     font-weight: 700;
     margin-top: 0;
-       padding: 20px 0 10px 22px;
+    text-align: left;
+       padding: 10px 0 10px 22px;
 }
+  .side-nav-wrapper #logo i{
+  	    position: absolute;
+    right: 5px;
+    top: 0px;
+    cursor: pointer;
+    font-size: 22px;
+  }
 .side-nav-wrapper nav dl {
     margin: 0;
 }
@@ -129,10 +137,7 @@ box-shadow: none!important;
     padding: 10px 24px 10px 46px;
     white-space: nowrap;
 }
-/*.side-nav-wrapper nav{
-	    padding-bottom: 50%;
-	       
-}*/
+
 .side-nav-wrapper .legal {
     border-top: 1px solid #e0e0e0;
     bottom: 0;
@@ -201,6 +206,10 @@ box-shadow: none!important;
     letter-spacing: 0.5px;
     text-align: center;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+    .import_btn_youth i{
+    	position: relative;
+           left: -5px;
     }
 @media (max-width:1280px){
 	body{padding-top:0px}
